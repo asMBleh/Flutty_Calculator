@@ -6,6 +6,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
@@ -30,7 +31,7 @@ class _MyHomePageState extends State<MyHomePage> {
   String stringtodisplay="";
   String operatortoperform;
   void buttonpress(String buttonText){
-    if(buttonText == "clear"){
+    if(buttonText == "CLEAR"){
       fnum=0;
       snum=0;
       stringtodisplay="";
@@ -133,7 +134,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 ],
                 ),
                 Row(children: <Widget>[
-                  buildbutton("CLEARgit "),
+                  buildbutton("CLEAR"),
                   buildbutton("="),
                 ],
                 ),
