@@ -75,7 +75,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Expanded(
       child: new MaterialButton(
         child: new Text(buttonText ,style:TextStyle(
-            fontSize: 21.0,
+            fontSize: 22.0,
             fontWeight: FontWeight.bold
         )),
         onPressed:() =>
